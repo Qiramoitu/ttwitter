@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/stylecadastro.css">
+    <title>Cadastro TTwitter</title>
+</head>
+<body>
+
+    <div class="container">
+        <form class="login" action="">
+            <label class="label-formulario-h1">Cadastro</label>
+            <label for="nome" class="label-formulario-nome">Nome</label>
+            <input class="input-formulario-nome" type="text" id="nome" name="nome" placeholder="Nome de usuário" required>
+            <br>
+            <label for="email" class="label-formulario-email">Email</label>
+            <input class="input-formulario-email" type="email" id="email" name="email" placeholder="example@email.com" required>
+            <br>
+            <label for="data-nasc" class="label-formulario-datanasc">Data de Nascimento</label>
+            <input class="input-formulario-datanasc" type="date" id="date" name="email" required>
+            <br>
+            <label for="senha" class="label-formulario-senha">Senha</label>
+            <input class="input-formulario-senha" type="password" id="senha" name="senha" placeholder="*******" required>
+            <label class="label-formulario-termos">
+                <input type="radio" name="li_e_estou" required>
+                Li e estou de acordo com os <a href="termos.html">Termos</a> e <a href="condicao.html">Condições de Uso</a>
+            </label>
+            <button type="button" class="botao-registrar">Registrar</button>
+            <a href="login.html" class="botao-entrar">Entrar</a><br>
+            
+        </form>
+
+        <img src="./images/image.svg" alt="Logo TTwitter" class="logo-ttwitter">
+    </div>
+</body>
+</html>

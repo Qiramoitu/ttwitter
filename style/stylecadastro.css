@@ -1,0 +1,98 @@
+*{
+    background: #181B24;
+    color:#105F74
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30vh;
+    width: 100%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #F2F2F2;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.label-formulario-h1{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    background: none;
+}
+
+.label-formulario-email,
+.label-formulario-senha, .label-formulario-nome, .label-formulario-datanasc {
+    display: block;
+    margin-bottom: -3%;
+    background: #F2F2F2;
+    width: fit-content;
+    position: relative;
+    margin-left: 7px;
+}
+
+.input-formulario-email,
+.input-formulario-senha, .input-formulario-nome, .input-formulario-datanasc {
+    padding: 10px;
+    background: none;
+    border: 1px solid #222222;
+    border-radius: 5px;
+}
+
+.botao-registrar{
+    padding: 10px;
+    background: #105F74;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao-entrar{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    background: none;
+    text-decoration: none;
+}
+
+.label-formulario-termos{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background: none;
+    margin-bottom: 20px;
+}
+
+a{
+    background: none;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  
+  .logo-ttwitter {
+    order: -1;
+    width: 150px;
+    height: auto;
+    margin: 20px auto 10px;
+    display: block;
+  }
+}
